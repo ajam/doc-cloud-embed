@@ -11,16 +11,7 @@
 	}
 
 	$('#ajmint-doc-url').keyup(function(){
-	responsive_code =  'var docCloudWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width; \
-													var docCloudHeight; \
-													if (docCloudWidth < 500){ \
-													   docCloudWidth = docCloudWidth - 40; \
-													   docCloudHeight = 400; \
-													}else{ \
-													 docCloudWidth = 590; \
-													 docCloudHeight = 725; \
-													}; \
-													' 
+	responsive_code = $('#ajmint-responsive-code').html();
 		var dc_embed = $(this).val();
 		replaceEmbedCode(dc_embed)
 	})

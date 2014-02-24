@@ -23,6 +23,18 @@
 			<textarea id="ajmint-doc-url" placeholder="Paste the Document Cloud embed code here..."></textarea><span id="ajmint-converter">&#8594;</span><textarea id="ajmint-embed-code" placeholder="Copy the responsive embed code output from here."></textarea>
 	</div>
 
+
+	<script type="text/template" id="ajmint-responsive-code">
+	var docCloudWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+	var docCloudHeight;
+	if (docCloudWidth < 500){
+	   docCloudWidth = docCloudWidth - 40;
+	   docCloudHeight = 400;
+	}else{
+	 docCloudWidth = 590;
+	 docCloudHeight = 725;
+	};	
+	</script>
 	<script src="js/thirdparty/jquery.1.10.2.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
