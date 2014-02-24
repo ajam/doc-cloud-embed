@@ -1,0 +1,76 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica,sans-serif;
+	font-weight: 300;
+	color: #666;
+	background-color: #F0F0F0;
+}
+#ajmint-wrapper{
+	width: 100%;
+	min-width: 200px;
+}
+#ajmint-instructions{
+	margin: 25px 0;
+}
+#ajmint-helper{
+	width: 98%;
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica,sans-serif;
+	font-weight: bold;
+}
+h2{
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica,sans-serif;
+	font-weight: 300;
+}
+textarea{
+	width: 46.5%;
+	height: 400px;
+}
+#ajmint-converter{
+	width: 4%;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	height: 475px;
+	font-size: 35px;
+}
+
+@media (max-width: 875px) { 
+	#ajmint-converter{
+		font-size: 30px;
+	}
+}
+@media (max-width: 760px) { 
+	#ajmint-converter{
+		font-size: 25px;
+	}
+}
+@media (max-width: 600px) { 
+	#ajmint-converter{
+		font-size: 20px;
+	}
+}
+@media (max-width: 500px) { 
+	#ajmint-converter{
+		font-size: 14px;
+	}
+}
+@media (max-width: 500px) { 
+	#ajmint-converter{
+		display:none;
+	}
+	textarea:first-child{
+		margin-right: 2px;
+	}
+}
+
