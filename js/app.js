@@ -5,7 +5,7 @@
 		return dc_embed
 						.replace('container: "', 'width: docCloudWidth,\nheight: docCloudHeight,\ncontainer: "')
 						.replace('DV.load', responsive_code + 'DV.load')
-						.replace('"DV-container"', 'DV-container" style="margin: 0 auto;"'); // Add an inline style to center it.
+						.replace('"DV-container"', '"DV-container" style="margin: 0 auto;"'); // Add an inline style to center it.
 	}
 
 	function replaceEmbedCode(dc_embed){
