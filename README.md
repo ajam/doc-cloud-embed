@@ -2,9 +2,7 @@
 
 A small hack to make the DC viewer load with a smaller width on narrow-screened devices.
 
-###  Use the helper
-
-Generate a responsive document embed: <https://ajam.github.io/doc-cloud-embed>
+### [Go to the tool](https://ajam.github.io/doc-cloud-embed)
 
 ### Guides
 
