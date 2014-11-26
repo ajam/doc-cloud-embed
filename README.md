@@ -1,7 +1,3 @@
-# ** NO LONGER NEEDED ** 
-
-Document Cloud emeds are now responsive by default: <http://blog.documentcloud.org/blog/2014/09/how-we-made-documentcloud-embeds-responsive/>
-
 ## Document Cloud Responsive Embedder
 
 A small hack to make the DC viewer load with a smaller width on narrow-screened devices.
